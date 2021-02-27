@@ -185,7 +185,7 @@ public class panelDibujo extends javax.swing.JPanel {
         
         for (int i = 0; i < datos.length; i++) {
             
-            g2d.setColor(Color.YELLOW);
+            g2d.setColor(Color.green);
             g2d.fillOval(x[i], y[i], 30, 30);
             g2d.setColor(Color.black);
             g2d.drawString(datos[i]+"", x[i]+10, y[i]+20);
